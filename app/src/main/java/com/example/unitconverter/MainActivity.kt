@@ -85,7 +85,7 @@ fun UnitConverter() {
             Box {
                 Button(onClick = { iExpanded = true }) {
                     Text(inputUnit)
-                    Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrrow Down")
+                    Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Down")
                 }
                 DropdownMenu(expanded = iExpanded, onDismissRequest = { iExpanded=false }) {
                     DropdownMenuItem(text = { Text("Millimeters") }, onClick = {
@@ -118,7 +118,7 @@ fun UnitConverter() {
             Box {
                 Button(onClick = {oExpanded=true}) {
                     Text(outputUnit)
-                    Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrrow Down")
+                    Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Down")
                 }
                 DropdownMenu(expanded = oExpanded, onDismissRequest = { oExpanded=false }) {
                     DropdownMenuItem(text = { Text("Millimeters") }, onClick = {
